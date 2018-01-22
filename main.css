@@ -1,0 +1,114 @@
+.header {
+    border-bottom-color: rgb(0, 0, 0);
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+}
+
+#onceit-logo {
+    width: 336;
+    height: 40px;
+    margin: 25px;
+}
+
+#main {
+    padding: 50px;
+    height: 350px;
+    background-color: rgb(230, 230, 230);
+    border-bottom-color: rgb(0, 0, 0);
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+}
+
+#title-text {
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    font-family: Roboto Condensed;
+}
+
+#afterpay-logo {
+    height: 70px;
+    margin-top: -20px;
+}
+
+#subtitle-text {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: Roboto Condensed;
+}
+
+#details {
+    border-top-color: rgb(0, 0, 0);
+    border-top-style: solid;
+    border-top-width: 5px;
+    font-family: Roboto Condensed;
+    font-size: 20px;
+    border-bottom-color: rgb(0, 0, 0);
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+}
+
+#shopping {
+    font-family: Roboto Condensed;
+    font-size: 30px;
+}
+
+#shopping-heading {
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+
+#placeholder-sales {
+    height: 300px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+    margin: 465px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#shopping-button {
+    margin: 465px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
+}
+
+#shopping-button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+#credit {
+    background-color: rgb(0, 0, 0);
+    color: gray;
+    text-align: right;
+    font-size: 10px;
+}
+
+.info {
+    margin: 50px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    height: 180px;
+    padding: 10px;
+    font-family: Roboto Condensed;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.column {
+    margin: 50px;
+    height: 270px;
+    color: rgb(0, 0, 0);
+}
+
+.credit-links,
+.credit-links:hover {
+    color: gray;
+    text-decoration-line: none;
+}
