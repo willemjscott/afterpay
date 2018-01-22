@@ -11,37 +11,54 @@
 }
 
 .main {
-    padding: 50px;
     height: 350px;
     background-color: rgb(230, 230, 230);
     border-bottom-color: rgb(0, 0, 0);
     border-bottom-style: solid;
     border-bottom-width: 5px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .title-text {
     color: rgb(0, 0, 0);
     font-size: 70px;
     font-family: Avenir Next Condensed;
+    white-space: nowrap;
 }
 
 .afterpay-logo {
     height: 70px;
-    margin-top: -20px;
+    margin-top: 20px;
+    margin-left: 10px;
 }
 
 .subtitle-text {
     color: rgb(0, 0, 0);
     font-size: 40px;
     font-family: Avenir Next Condensed;
+    white-space: nowrap;
+}
+
+.basic-info {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
 }
 
 .info {
-    margin: 50px;
-    margin-top: 35px;
-    margin-bottom: 30px;
-    height: 180px;
-    padding: 10px;
+    margin-top: 45px;
+    margin-bottom: 40px;
     font-family: Arial;
     font-size: 20px;
     color: rgb(0, 0, 0);
@@ -56,37 +73,46 @@
     border-bottom-color: rgb(0, 0, 0);
     border-bottom-style: solid;
     border-bottom-width: 5px;
+    display: flex;
+    justify-content: space-around
 }
 
 .column {
-    margin: 50px;
-    height: 270px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     color: rgb(0, 0, 0);
 }
 
 .shopping {
+    width: 100%;
     font-family: Arial;
     font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .shopping-heading {
-    margin-top: 30px;
     color: rgb(0, 0, 0);
     font-size: 50px;
     font-family: Avenir Next Condensed;
+    margin: auto;
+    margin-top: 30px;
 }
 
 .placeholder-sales {
     height: 300px;
+    width: 300px;
     background-color: rgb(230, 230, 230);
     border-radius: 5px;
-    margin: 465px;
+    margin: auto;
     margin-top: 20px;
-    margin-bottom: 0px;
 }
 
 .shopping-button {
-    margin: 465px;
+    width: 300px;
+    margin: auto;
     margin-top: 30px;
     margin-bottom: 50px;
     color: rgb(0, 0, 0);
@@ -97,7 +123,9 @@
 }
 
 .shopping-button:hover {
-    border-color: rgb(152, 152, 152)
+    border-color: rgb(152, 152, 152);
+    text-decoration-line: none;
+    color: initial;
 }
 
 .credit {
