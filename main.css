@@ -12,6 +12,7 @@
 
 .main {
     height: 350px;
+    width: 100%;
     background-color: rgb(230, 230, 230);
     border-bottom-color: rgb(0, 0, 0);
     border-bottom-style: solid;
